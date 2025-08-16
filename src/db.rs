@@ -31,6 +31,8 @@ pub trait UserExt {
         email: T,
         password: T,
     ) -> Result<User, sqlx::Error>;
+
+    #[allow(dead_code)]
     async fn save_admin_user<T: Into<String> + Send>(
         &self,
         name: T,
