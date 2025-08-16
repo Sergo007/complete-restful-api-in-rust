@@ -7,7 +7,7 @@ use validator::Validate;
 use crate::{
     db::UserExt,
     dtos::{
-        FilterUserDto, LoginUserDto, RegisterUserDto, UserData, UserLoginResponseDto,
+        FilterUserDto, LoginUserDto, RegisterUserDto, Response, UserData, UserLoginResponseDto,
         UserResponseDto,
     },
     error::{ErrorMessage, HttpError},

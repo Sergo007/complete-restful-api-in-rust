@@ -3,7 +3,7 @@ use validator::Validate;
 
 use crate::{
     db::UserExt,
-    dtos::{FilterUserDto, RequestQueryDto, UserData, UserListResponseDto, UserResponseDto},
+    dtos::{FilterUserDto, RequestQueryDto, Response, UserData, UserListResponseDto, UserResponseDto},
     error::HttpError,
     extractors::auth::{Authenticated, RequireAuth},
     models::UserRole,
